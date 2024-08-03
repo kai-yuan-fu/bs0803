@@ -1,0 +1,45 @@
+/* 各區背景圖 */
+#home {
+    background-image: url(../images/p0.jpg);
+}
+
+#about {
+    background-image: url(../images/p1.jpg);
+}
+
+#news {
+    background-image: url(../images/p2.jpg);
+}
+
+#service {
+    background-image: url(../images/p4.jpg);
+}
+
+#contact {
+    background-image: url(../images/p5.jpg);
+}
+
+/* 滿版設定 */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+/* 各區背景 */
+section{
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* 文字背景 */
+.txt-bg{
+    background-color: #fff;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 20px;
+}
